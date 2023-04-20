@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: orange;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .form-login {
+            background: white;
+            width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 500px;
+            text-align: center;
+        }
+
+        .form-login  h2 {
+            margin-bottom: 20px;
+            font-family: 'Lora', serif;
+        }
+      .form-input{
+        width: 100%;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        outline: none;
+        border: none;
+        background: rgb(235,235,235);
+      }
+      form{
+        width: 100%;
+        padding:20px;
+      }
+
+      .form-login a {
+        color: rgb(125, 125, 125);
+      }
+
+      .form-btn {
+        padding: 15px 40px;
+        margin-top: 20px;
+        border-radius: 30px;
+        outline: none;
+        border:none;
+      }
+
+    </style>
+    <title>Form Login</title>
+</head>
+<body>
+    <div class="form-login">
+        
+        <form>
+            <h2>Sign in</h2>
+            <input class="form-input" type="email" placeholder="email">
+            <br>
+            <input class="form-input" type="password" placeholder="password">
+            <br>
+            <a href="#">Forgot your password?</a>
+            <br>
+            <input type="submit" class="form-btn" value="SIGN IN">
+        </form>
+
+    </div>
+</body>
+</html>
